@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(30, 0, 77);
+}
+*{
+    box-sizing: content-box;
+}
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.header{
+    width: 100%;
+    text-align: center;
+    background-color:rgb(92, 52, 155) ;
+    color: wheat;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.content{
+    background-color: rgb(239, 239, 239);
+    width: 60%;
+
+}
+
+h1{
+    display: inline;
+
+}
+.btn{
+    float: right;
+    background-color: white;
+    margin-right: 10px;
+    line-height: 0;
+}
+
+button.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+
+}
+button{
+    border: none;
+    font-size: 20px;
+    box-shadow: 0px 3px 5px rgb(168, 168, 168,0.38);
+}
+.contenttask{
+
+    padding: 20px;
+}
+.task{
+
+    background-color: white;
+    display: flex;
+    border-bottom: solid black 1px;
+    transition: box-shadow 0.2s;
+    margin-bottom: 5px;
+   
+}
+
+.done{
+
+    background-color: rgb(158, 253, 160);
+    display: flex;
+    border-bottom: solid black 1px;
+    transition: box-shadow 0.2s;
+    margin-bottom: 5px;
+   
+}
+
+
+.task:hover{
+    box-shadow: 0px 3px 15px rgba(97, 97, 97,0.843);
+}
+.taskinfo{
+    width: 70%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
+.taskinfo h2{
+ 
+}
+
+
+.taskaction{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnc{
+    background-color: rgb(0, 150, 30);
+    color: white;
+    line-height: 1;
+}
+.btne{
+    background-color: rgb(0, 16, 197);
+    color: white;
+    line-height: 1px;
+}
+.btnd{
+    line-height: 0;
+    background-color: rgb(114, 0, 0);
+    color: white;
+}
+.btnd span{
+    font-size:20px;
+
+}
+
+.btnc span{
+    font-size:25px;
+
+}
+
+.btne span{
+    font-size:20px;
+  
+
+}
+
+.doneedit{
+
+    background-color: rgb(118, 0, 101);
+}
+
